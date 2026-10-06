@@ -1,0 +1,9 @@
+order_id,product,category,quantity,price,region,total_sales
+1001,Laptop,Electronics,2,50000,Chennai,100000
+1002,Mouse,Electronics,5,800,Bangalore,4000
+1003,Keyboard,Electronics,3,1500,Chennai,4500
+1004,Chair,Furniture,2,4500,Hyderabad,9000
+1005,Desk,Furniture,1,8000,Bangalore,8000
+1006,Monitor,Electronics,2,12000,Chennai,24000
+1007,Headphones,Electronics,4,2500,Hyderabad,10000
+1008,Table,Furniture,2,6000,Chennai,12000
