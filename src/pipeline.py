@@ -1,12 +1,11 @@
 import pandas as pd
 
-# Read the raw sales data
-df = pd.read_csv("data/sales.csv")
+def process_sales():
+    df = pd.read_csv("data/sales.csv")
+    df["total_sales"] = df["quantity"] * df["price"]
+    df.to_csv("output/processed_sales.csv", index=False)
+    return df
 
-# Calculate total sales
-df["total_sales"] = df["quantity"] * df["price"]
-
-# Save the processed data
-df.to_csv("output/processed_sales.csv", index=False)
-
-print("Data pipeline completed successfully!")
+if __name__ == "__main__":
+    process_sales()
+    print("Data pipeline completed successfully!")
